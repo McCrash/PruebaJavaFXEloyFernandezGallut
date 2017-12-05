@@ -6,7 +6,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Font;
 
+/**
+ * 
+ * @author eloy
+ * @version 1.0.0
+ *
+ */
 public class MainFX extends Application {
 
 
@@ -23,7 +30,7 @@ public class MainFX extends Application {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("../vista/Login.fxml"));
 			AnchorPane panel = loader.load();
-			//Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/PoiretOne-Regular"), 20);
+			Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/PoiretOne-Regular"), 20);
 			escena.setScene(new Scene(panel));
 			escena.show();
 		} catch (IOException e) {

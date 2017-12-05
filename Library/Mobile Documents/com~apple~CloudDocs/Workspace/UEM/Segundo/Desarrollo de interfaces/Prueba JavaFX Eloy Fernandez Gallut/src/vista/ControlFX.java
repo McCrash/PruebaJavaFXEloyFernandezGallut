@@ -3,12 +3,10 @@ package vista;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import application.Main;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
-import javafx.scene.effect.GaussianBlur;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
@@ -20,13 +18,13 @@ public class ControlFX implements Initializable {
 
 	}
 	
-	public void showSendProfile() {
+	public void showFreeSolo() {
 		try {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(control.MainFX.class.getResource("../vista/FreeSolo.fxml"));
 			AnchorPane page = (AnchorPane) loader.load();
 			Stage sendStage = new Stage();
-			sendStage.setTitle("Superheader");
+			sendStage.setTitle("FreeSolo");
 
 			Scene scene = new Scene(page);
 			sendStage.setScene(scene);
@@ -44,7 +42,7 @@ public class ControlFX implements Initializable {
 	
 	@FXML
 	private void openStage() {
-		
+		showFreeSolo();
 	}
 	
 	@FXML
@@ -53,3 +51,7 @@ public class ControlFX implements Initializable {
 	}
 
 }
+
+
+
+

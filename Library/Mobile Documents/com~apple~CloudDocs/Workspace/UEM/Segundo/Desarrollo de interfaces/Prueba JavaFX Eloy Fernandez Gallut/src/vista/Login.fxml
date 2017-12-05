@@ -13,7 +13,7 @@
 
 <AnchorPane minHeight="600.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControlFX">
 	<children>
-      <SplitPane dividerPositions="0.5697091273821464" prefHeight="600.0" prefWidth="999.0">
+      <SplitPane dividerPositions="0.6232464929859719" prefHeight="600.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
           <AnchorPane minHeight="200.0" minWidth="325.0" prefHeight="498.0" prefWidth="327.0">
                <children>
@@ -24,26 +24,29 @@
             		</ImageView>
                   <Pane prefHeight="598.0" prefWidth="564.0" style="-fx-background-color: #795548aa#795548aa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <AnchorPane layoutX="112.0" layoutY="480.0" prefHeight="84.0" prefWidth="341.0">
+                        <AnchorPane layoutX="104.0" layoutY="497.0" prefHeight="84.0" prefWidth="341.0">
                            <children>
-                              <JFXButton layoutX="34.0" layoutY="28.0" style="-fx-border-color: #fff; -fx-border-radius: 10px;" textFill="WHITE" />
-                              <JFXButton layoutX="134.0" layoutY="29.0" style="-fx-background-color: #fff; -fx-background-radius: 10px;" />
+                              <JFXButton layoutX="14.0" layoutY="24.0" prefHeight="40.0" prefWidth="120.0" style="-fx-border-color: #fff; -fx-border-radius: 10px;" text="SIGN IN" textFill="WHITE" />
+                              <JFXButton layoutX="149.0" layoutY="24.0" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #fff; -fx-background-radius: 10px;" text="ABOUT US" />
                            </children>
                         </AnchorPane>
-                        <Label layoutX="166.0" layoutY="423.0" text="Create Your Own Account" />
+                        <Label layoutX="121.0" layoutY="404.0" style="-fx-font-size: 40;" text="Create Your" textFill="WHITE" />
+                        <Label layoutX="121.0" layoutY="447.0" style="-fx-font-size: 40;" text="Own Account" textFill="WHITE" />
                      </children>
                   </Pane>
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="601.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="357.0">
                <children>
                	
-                  <JFXTextField labelFloat="true" layoutX="132.0" layoutY="233.0" promptText="FIRST NAME" style="-fx-prompt-text-fill: #757575;" />
-                  <JFXTextField labelFloat="true" layoutX="128.0" layoutY="268.0" promptText="LAST NAME" />
-                  <JFXTextField labelFloat="true" layoutX="131.0" layoutY="306.0" promptText="E-MAIL" />
-                  <JFXPasswordField labelFloat="true" layoutX="130.0" layoutY="363.0" promptText="PASSWORD" />
-                  <JFXPasswordField labelFloat="true" layoutX="124.0" layoutY="415.0" promptText="REPEAT PASSWORD" />
-                  <JFXToggleButton layoutX="138.0" layoutY="490.0" text="UNDER 18 ?" toggleColor="#ff4081" />
+                  <JFXTextField labelFloat="true" layoutX="50.0" layoutY="213.0" prefHeight="27.0" prefWidth="273.0" promptText="FIRST NAME" style="-fx-prompt-text-fill: #757575;" unFocusColor="#757575" />
+                  <JFXTextField labelFloat="true" layoutX="50.0" layoutY="255.0" prefHeight="27.0" prefWidth="273.0" promptText="LAST NAME" style="-fx-prompt-text-fill: #757575;" unFocusColor="#757575" />
+                  <JFXTextField labelFloat="true" layoutX="50.0" layoutY="299.0" prefHeight="27.0" prefWidth="273.0" promptText="E-MAIL" style="-fx-prompt-text-fill: #757575;" unFocusColor="#757575" />
+                  <JFXPasswordField labelFloat="true" layoutX="50.0" layoutY="349.0" prefHeight="27.0" prefWidth="273.0" promptText="PASSWORD" style="-fx-prompt-text-fill: #757575;" unFocusColor="#757575" />
+                  <JFXPasswordField labelFloat="true" layoutX="50.0" layoutY="396.0" prefHeight="27.0" prefWidth="273.0" promptText="REPEAT PASSWORD" style="-fx-prompt-text-fill: #757575;" unFocusColor="#757575" />
+                  <JFXToggleButton layoutX="40.0" layoutY="508.0" text="UNDER 18 ?" toggleColor="#ff4081" />
+                  <JFXButton layoutX="212.0" layoutY="518.0" onAction="#openStage" prefHeight="40.0" prefWidth="120.0" style="-fx-border-color: #795548; -fx-border-radius: 10px;" text="GET STARTED" textFill="#795548" />
+                  <Label alignment="CENTER" layoutX="143.0" layoutY="72.0" prefHeight="88.0" prefWidth="88.0" style="-fx-background-color: #FFF; -fx-background-radius: 50px; -fx-font-size: 40;" text="M" textFill="#ff4081" />
                </children>
             </AnchorPane>
         </items>
