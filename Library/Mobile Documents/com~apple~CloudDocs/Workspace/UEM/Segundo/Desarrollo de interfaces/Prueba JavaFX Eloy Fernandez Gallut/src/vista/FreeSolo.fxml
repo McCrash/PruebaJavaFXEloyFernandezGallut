@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane minHeight="600.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControlFX">
+	<children>
+    <AnchorPane minHeight="200.0" minWidth="325.0" prefHeight="600.0" prefWidth="1000.0">
+         <children>
+      		<ImageView fitHeight="426.0" fitWidth="426.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+      			<image>
+                  <Image url="@assets/images/freesolo.png" />
+      			</image>
+      		</ImageView>
+            <Pane prefHeight="598.0" prefWidth="564.0" style="-fx-background-color: #795548aa#795548aa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="445.0" layoutY="132.0" prefHeight="88.0" prefWidth="88.0" style="-fx-background-color: #FFF; -fx-background-radius: 50px; -fx-font-size: 40;" text="M" textFill="#ff4081" />
+                  <AnchorPane layoutX="104.0" layoutY="497.0" prefHeight="84.0" prefWidth="341.0" />
+                  <Label alignment="CENTER" layoutX="254.0" layoutY="309.0" prefHeight="108.0" prefWidth="471.0" style="-fx-font-size: 60;" text="WELCOME" textFill="WHITE" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>
-

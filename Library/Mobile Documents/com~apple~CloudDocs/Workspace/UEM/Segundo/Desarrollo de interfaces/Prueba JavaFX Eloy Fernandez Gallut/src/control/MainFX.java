@@ -35,6 +35,7 @@ public class MainFX extends Application {
 			escena.show();
 		} catch (IOException e) {
 			e.printStackTrace();
+			
 		}
 	}
 
